@@ -2,7 +2,7 @@ import React from 'react'
 
 const VideoCard = (props) => {
   return (
-    <div className='p-3'>
+    <div className='p-3 cursor-pointer'>
         <img className='rounded-xl' src={props.thumbnail}></img>
         <div className='grid grid-cols-12 pt-2 '>
             <div className='col-span-1'>
