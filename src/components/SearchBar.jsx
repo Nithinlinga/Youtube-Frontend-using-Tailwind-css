@@ -2,7 +2,7 @@ import React from 'react'
 
 const SearchBar = () => {
   return (
-    <div className='w-96 flex text-gray-500 rounded-3xl  p-1 pl-3 text-sm pr-2'>
+    <div className='max-sm:hidden block md:w-48 lg:w-96 flex text-gray-500 rounded-3xl  p-1 pl-3 text-sm pr-2'>
         <input id='default-search' className='w-full bg-slate-950 text-white border-none outline-none' placeholder='search' required />
         <button className='bg-slate-950 text-gray-400 font-bold py-2 px-4 rounded inline-flex items-center'>
         <svg className='w-4 h-6' aria-hidden="true" xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'>
